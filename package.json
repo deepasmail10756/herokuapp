@@ -3,10 +3,20 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+  "dependencies": {
+    "express": "*",
+	"bcrypt": "^0.8.5"
+	},
+	"scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+   "keywords": [
+    "test",
+    "mean",
+    "project",
+	"express"
+  ],
   "author": "deepa",
   "license": "ISC"
 }
